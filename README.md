@@ -1,3 +1,5 @@
+Azure App Service に自動デプロイしてる [site](https://pyfl.azurewebsites.net)
+
 ---
 page_type: sample
 description: "A minimal sample app that can be used to demonstrate deploying Flask apps to Azure App Service on Linux."
