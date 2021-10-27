@@ -1,6 +1,7 @@
-from flask import Flask
-app = Flask(__name__)
+from bottle import route, default_app
 
-@app.route("/")
+@route('/')
 def hello():
-    return "<h1>online VSCodeで編集<h1>"
+    return 'Hello World'
+
+app = default_app()
