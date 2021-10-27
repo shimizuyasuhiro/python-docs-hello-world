@@ -10,8 +10,8 @@ products:
 
 # Azure App Service (Linux) で bottle を動かす
 
-前は Bottle のチュートリアルやテンプレレポジトリもあったようなのだが、公式採用しなくなったからとかなのか、
-消滅しているようだったので、公式テンプレートの Flask 版をフォークして Bottle 用に書き換えてみる。
+過去にはAzure公式らしき Bottle のチュートリアルやテンプレレポジトリもあったようなのだが、公式採用なくなったからとかなのか、
+消滅しているようだったので、公式テンプレート？の Flask 版をフォークして Bottle 用に書き換えてみる。
 
 ## ポイント
 
@@ -19,6 +19,10 @@ products:
 
 2. app.py の Flask 記述部分を bottle の記述に変更する
    - サンプルコードなどでは最後に`run()`を呼び出すことが多いが`app=default_app()`にする
+
+`.github/workflows`は、 Azure App Serviceで 継続的なデプロイ（CI/CD）を選択して追加されたもの
+
+
 
 > # Python Bottle ~~Flask~~ sample for Azure App Service (Linux)
 >
@@ -28,4 +32,4 @@ products:
 >
 > ## Contributing
 >
-> This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.> microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+> This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
