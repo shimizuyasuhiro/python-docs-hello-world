@@ -1,3 +1,13 @@
+---
+page_type: sample
+description: "A minimal sample app that can be used to demonstrate deploying Bottle ~~Flask~~ apps to Azure App Service on Linux."
+languages:
+- python
+products:
+- azure
+- azure-app-service
+---
+
 # Azure App Service (Linux) で bottle を動かす
 
 前は Bottle のチュートリアルやテンプレレポジトリもあったようなのだが、公式採用しなくなったからとかなのか、
@@ -9,16 +19,6 @@
 
 2. app.py の Flask 記述部分を bottle の記述に変更する
    - サンプルコードなどでは最後に`run()`を呼び出すことが多いが`app=default_app()`にする
-
----
-page_type: sample
-description: "A minimal sample app that can be used to demonstrate deploying Bottle ~~Flask~~ apps to Azure App Service on Linux."
-languages:
-- python
-products:
-- azure
-- azure-app-service
----
 
 > # Python Bottle ~~Flask~~ sample for Azure App Service (Linux)
 >
